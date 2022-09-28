@@ -95,7 +95,7 @@ function Header(props) {
                 className="ec"
                 to="/education"
                 tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
+                activeStyle={{ fontWeight: "bold"}}
                 style={{ borderRadius: 5, color: theme.text }}
               >
                 Education and Certifications

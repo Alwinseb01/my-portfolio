@@ -11,7 +11,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-github"></i>
+        <i className="fa fa-github"></i>
         <span></span>
       </a>
       {/* <a
@@ -29,7 +29,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-linkedin-in"></i>
+        <i className="fa fa-linkedin"></i>
         <span></span>
       </a>
       <a
@@ -38,7 +38,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-google"></i>
+        <i className="fa fa-google"></i>
         <span></span>
       </a>
       <a
@@ -47,7 +47,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-twitter"></i>
+        <i className="fa fa-twitter"></i>
         <span></span>
       </a>
       <a
@@ -56,7 +56,7 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fab fa-instagram"></i>
+        <i className="fa fa-instagram"></i>
         <span></span>
       </a>
     </div>

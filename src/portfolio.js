@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Alwin Sebastian",
   subTitle: "Front-End Developer, Computer Vision enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1rvEZsNS0CnwX3D-yD4wjsyH66SSIbQwP/view?usp=sharing",
+    "https://drive.google.com/file/d/1XSpJRr6eikU_-bdGnnUnv9TEGC-8rU3m/view?usp=sharing",
   mail: "mailto:alwinseb01@gmail.com",
 };
 
@@ -373,13 +373,13 @@ const degrees = {
       title: "Indian Institute of Information Technology, Kottayam",
       subtitle: "Bachelor in Computer Science and Engineering",
       logo_path: "iiitk.jpg",
-      alt_name: "SSEC",
+      alt_name: "IIITK",
       duration: "2019 - Present",
       descriptions: [
-        "⚡ I'm currently pursuing my bachelors in Computer Science and Engineering",
-        "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
+        " ◼ Currently pursuing my bachelors in Computer Science and Engineering",
+        " ◼ Knowledge in core subjects include Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        // "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
       ],
       website_link: "http://www.iiitkottayam.ac.in/",
     },
@@ -488,7 +488,6 @@ const experience = {
           description: `Explore and anlyze innovations and deep learning models related to Metaverse Avatars. 
           Creating Programmable Interactive 3D avatars for metaverse 
           `,
-          // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
         {
@@ -501,7 +500,7 @@ const experience = {
           description: `Built ReachTheTop.io Mobile Application from scratch. Effectively enhanced system efficiency by 35%
           by reducing API calls made through state management via redux.
           `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+         
           color: "#ee3c26",
         },
         {
@@ -513,7 +512,7 @@ const experience = {
           location: "Remote",
           description: `Part of the Web development team of the technical fest website of IIIT Kottayam.
           `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          
           color: "#C5E2EE",
         },
         {
@@ -525,7 +524,7 @@ const experience = {
           location: "Remote",
           description: `Built A sign Language Translator using Deep Learning frameworks like Mediapipe, Tensorflow and LSTM models.
           `,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
+          
           color: "#00FF00",
         },
       ],
