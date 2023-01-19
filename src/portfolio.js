@@ -478,6 +478,17 @@ const experience = {
       title: "Work Experience",
       experiences: [
         {
+          title: "Associate Software Engineer Intern",
+          company: "Tekion Corp",
+          company_url:
+            "https://tekion.com/",
+          logo_path: "tekion.png",
+          duration: "Jan 2023 - Present",
+          location: "Chennai",
+          description: `Front-End developer`,
+          color: "#05DEBA",
+        },
+        {
           title: "R&D Analyst: Computer Vision",
           company: "Accenture Labs",
           company_url:

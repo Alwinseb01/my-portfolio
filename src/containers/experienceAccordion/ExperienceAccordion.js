@@ -30,6 +30,17 @@ function ExperienceAccordion(props) {
         title: "Work Experience",
         experiences: [
           {
+            title: "Associate Software Engineer Intern",
+            company: "Tekion Corp",
+            company_url:
+              "https://tekion.com/",
+            logo_path: "tekion.png",
+            duration: "Jan 2023 - Present",
+            location: "Chennai",
+            description: `Front-End developer`,
+            color: "#05DEBA",
+          },
+          {
             title: "R&D Analyst: Computer Vision",
             company: "Accenture Labs",
             company_url:
@@ -171,12 +182,11 @@ function ExperienceAccordion(props) {
     <ThemeProvider theme={theme.name === "light" ? LightTheme: darkTheme}>
 
     <div className="experience-accord">
-    {experience.sections.map((section)=>{
+    {props.sections.map((section)=>{
       return(
-        <Accordion className="accord-panel" >
-          <AccordionSummary  expandIcon={<ExpandMore />}
->
-            <Typography>{section.title}</Typography>
+        <Accordion>
+          <AccordionSummary  expandIcon={<ExpandMore />} className="accord-panel">
+            <Typography className="accord-panel">{section.title}</Typography>
           </AccordionSummary>
           <AccordionDetails>
           {section["experiences"].map((experience) => {
