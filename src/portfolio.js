@@ -16,7 +16,7 @@ const greeting = {
   full_name: "Alwin Sebastian",
   subTitle: "Front-End Developer, Computer Vision enthusiast. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1XSpJRr6eikU_-bdGnnUnv9TEGC-8rU3m/view?usp=sharing",
+    "https://drive.google.com/file/d/1UIpJyWsuX_w74xeaBmC9ZPepILE6UPAT/view?usp=sharing",
   mail: "mailto:alwinseb01@gmail.com",
 };
 
@@ -374,9 +374,9 @@ const degrees = {
       subtitle: "Bachelor in Computer Science and Engineering",
       logo_path: "iiitk.jpg",
       alt_name: "IIITK",
-      duration: "2019 - Present",
+      duration: "2019 - 2023",
       descriptions: [
-        " ◼ Currently pursuing my bachelors in Computer Science and Engineering",
+        " ◼ Pursued my bachelors in Computer Science and Engineering",
         " ◼ Knowledge in core subjects include Data Structures, DBMS, Networking, Security, etc.",
         // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
         // "⚡ I have implemented several projects based on what I've learnt under my Computer Engineering course. ",
@@ -483,9 +483,10 @@ const experience = {
           company_url:
             "https://tekion.com/",
           logo_path: "tekion.png",
-          duration: "Jan 2023 - Present",
+          duration: "Jan 2023 - July 2023",
           location: "Chennai",
-          description: `Front-End developer`,
+          description: `Worked on creating an internal web app interface from scratch, that enables dynamic on-demand environment
+          creation for QA testing team.`,
           color: "#05DEBA",
         },
         {
@@ -495,7 +496,7 @@ const experience = {
             "https://www.accenture.com/in-en/about/accenture-labs-index",
           logo_path: "accenture.png",
           duration: "Mar 2022 - Sept 2022",
-          location: "Remote",
+          location: "Remote, Bangalore",
           description: `Explore and anlyze innovations and deep learning models related to Metaverse Avatars. 
           Creating Programmable Interactive 3D avatars for metaverse 
           `,
@@ -507,7 +508,7 @@ const experience = {
           company_url: "http://www.reachthetop.io/",
           logo_path: "rtt_logo.png",
           duration: "Oct 2021 - Present",
-          location: "Remote",
+          location: "Remote, Ireland",
           description: `Built ReachTheTop.io Mobile Application from scratch. Effectively enhanced system efficiency by 35%
           by reducing API calls made through state management via redux.
           `,
@@ -532,7 +533,7 @@ const experience = {
           company_url: "https://www.ust.com/",
           logo_path: "ust.png",
           duration: "May 2021 - Aug 2021",
-          location: "Remote",
+          location: "Remote, Trivandrum",
           description: `Built A sign Language Translator using Deep Learning frameworks like Mediapipe, Tensorflow and LSTM models.
           `,
           
@@ -559,7 +560,7 @@ const experience = {
           company: "IEEE Student Branch | IIIT Kottayam",
           company_url: "https://skillenza.com/",
           logo_path: "ieee_iiitk.PNG",
-          duration: "May 2020 - Present",
+          duration: "May 2020 - May 2022",
           location: "Kerala",
           description:
             "Organizing, coordinating and documenting events for IEEE Student Branch IIIT Kottayam.",
@@ -654,6 +655,35 @@ const projects = {
   data: [
     {
       id: "0",
+      name: "Educhain",
+      url: "http://educhain-seven.vercel.app/",
+      description:
+        "A Blockchain Based Learning Management System. Uses NFT gating for profile authentication, IPFS for content storage and digital certificate generation as NFT.",
+      languages: [
+        {
+          name: "ReactJs",
+          iconifyClass: "logos-react",
+        },
+        {
+          name: "Solidity",
+          iconifyClass: "logos-solidity",
+        },
+        {
+          name: "Polygon",
+          iconifyClass: "devicon:polygon",
+        },
+        {
+          name: "IPFS",
+          iconifyClass: "skill-icons:ipfs-dark",
+        },
+        {
+          name: "Tailwind-CSS",
+          iconifyClass: "devicon:tailwindcss",
+        },
+      ],
+    },
+    {
+      id: "1",
       name: "Uni-Hub",
       url: "https://github.com/TechJunkies-IIITK/Uni-Hub",
       description:
@@ -670,7 +700,7 @@ const projects = {
       ],
     },
     {
-      id: "1",
+      id: "2",
       name: "Task Manager: To Do List",
       url: "https://github.com/Alwinseb01/To-do_list",
       description:
@@ -687,7 +717,7 @@ const projects = {
       ],
     },
     {
-      id: "2",
+      id: "3",
       name: "HackoonaMaTaTa: AaramBot",
       url: "https://github.com/Alwinseb01/HackoonaMaTaTa",
       description:
@@ -704,7 +734,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "4",
       name: "Virtual assistant",
       url: "https://github.com/Alwinseb01/Virtual-Assistant",
       description:
@@ -733,7 +763,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "5",
       name: "Chatbots",
       url: "https://github.com/Alwinseb01/Virtual-Assistant",
       description:
@@ -754,7 +784,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "6",
       name: "E-Lib! An electronic library",
       url: "https://alwinseb01.github.io/E-lib/",
       description:
